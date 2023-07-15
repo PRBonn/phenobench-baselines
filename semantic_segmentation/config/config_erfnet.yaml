@@ -1,0 +1,87 @@
+seed: 1682406612
+experiment:
+  id: phenobench
+data:
+  name: phenobench
+  path_to_dataset: <path/to/dataset>
+  num_workers: 4
+  image_normalizer:
+    name: single_image_normalizer
+backbone:
+  name: erfnet
+  num_classes: 3
+  pretrained: false
+train:
+  step_settings:
+    - regular
+  max_epoch: 4096
+  n_gpus: 1
+  benchmark: true
+  loss: xentropy
+  learning_rate: 5.0e-4
+  weight_decay: 2.0e-04
+  class_weights:
+    - 1.47 
+    - 5.06 
+    - 10.02
+  batch_size: 4
+  shuffle: true
+  vis_train_every_x_epochs: 4096
+  postprocess_train_every_x_epochs: 4096
+  color_data_augmentations:
+    random_global_brightness:
+      min_brightness_factor: 0.6
+      max_brightness_factor: 1.4
+    random_global_contrast:
+      min_contrast_factor: 0.6
+      max_contrast_factor: 1.4
+    random_global_saturation:
+      min_saturation_factor: 0.8
+      max_saturation_factor: 1.2
+    random_global_hue:
+      min_hue_factor: -0.0125
+      max_hue_factor:  0.0125
+  geometric_data_augmentations:
+    random_hflip: null
+    random_vflip: null
+    random_scale:
+      min_scale: 1.0
+      max_scale: 1.1
+    random_crop:
+      height: 768
+      width: 768
+val:
+  step_settings:
+    - regular
+  n_gpus: 1
+  batch_size: 2
+  check_val_every_n_epoch: 4096
+  vis_val_every_x_epochs: 4096
+  postprocess_val_every_x_epochs: 4096
+  geometric_data_augmentations:
+    center_crop:
+      height: 1024
+      width: 1024
+test:
+  step_settings:
+    - regular
+  n_gpus: 1
+  batch_size: 1
+  geometric_data_augmentations:
+    center_crop:
+      height: 1024
+      width: 1024
+visualizers:
+  input_image_visualizer: null
+  semantic_map_visualizer:
+    classes_to_colors: {0: [0, 0, 0], 1: [0, 255, 0], 2: [255, 0, 0]}
+  semantic_overlay_correct_incorrect_visualizer:
+    classes_to_colors: {0: [0, 0, 0], 1: [0, 255, 0], 2: [255, 0, 0]}
+  semantic_overlay_visualizer:
+    classes_to_colors: {0: [0, 0, 0], 1: [0, 255, 0], 2: [255, 0, 0]}
+  ground_truth_visualizer:
+    classes_to_colors: {0: [0, 0, 0], 1: [0, 255, 0], 2: [255, 0, 0]}
+postprocessors:
+  arg_max_classes_postprocessor: null
+#   probablistic_softmax_postprocessor: null
+#   keep_embeddings_postprocessor: null

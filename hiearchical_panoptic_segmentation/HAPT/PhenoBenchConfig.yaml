@@ -1,0 +1,28 @@
+experiment:
+    id: experiment_id
+    seed: 1324
+
+##Data
+data:
+    ft-path: "/path/to/dataset" # path to dataset for fine tuning
+
+##Training
+train:
+    mode: 'train' 
+    n_gpus: 1
+    workers: 10
+    max_epoch: 500
+    lr: [0.0004, 0.0004, 0.0008, 0.0008]
+    batch_size: 8
+    overfit: False
+    validation_warmup: 300
+
+##Network
+model:
+    dropout: 0.15
+    initialization: "xavier" # one among None, he, xavier
+
+tasks:
+    semantic_segmentation:
+        n_classes: 3
+

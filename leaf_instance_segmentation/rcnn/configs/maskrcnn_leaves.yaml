@@ -1,0 +1,25 @@
+experiment:
+    id: maskrcnn_leaves
+    seed: 1324
+
+checkpoint: ''
+tensorboard: ''
+
+##Data
+data:
+    train: ''
+    val: ''
+
+##Training
+train:
+    n_gpus: 1
+    workers: 10 
+    max_epoch: 200
+    batch_size: 12
+    n_classes: 2
+    overfit: False
+    lr: 0.0001
+
+val:
+    nms_th: 0.5
+    prob_th: 0.6

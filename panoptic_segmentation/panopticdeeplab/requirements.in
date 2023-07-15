@@ -1,0 +1,6 @@
+attrdict==2.0.1
+click==8.1.2
+torch==1.10.0
+open3d==0.15.2
+diskcache==5.4.0
+ipdb==0.13.9

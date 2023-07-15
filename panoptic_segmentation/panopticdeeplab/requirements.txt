@@ -1,0 +1,9 @@
+ipdb
+click
+opencv-python
+torchmetrics
+tensorboard
+pycocotools
+fvcore
+torchsummary
+diskcache

@@ -1,0 +1,10 @@
+cython
+scipy
+shapely
+timm
+h5py
+submitit
+scikit-image
+cog==0.0.3
+ipdb
+flask

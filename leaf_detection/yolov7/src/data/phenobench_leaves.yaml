@@ -1,0 +1,10 @@
+# Plant Dataset Challenge dataset
+
+train: /data/train/images
+val: /data/val/images
+test: /data/test/images
+
+nc: 1
+
+# class names
+names: ['leaf']

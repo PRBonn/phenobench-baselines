@@ -1,0 +1,8 @@
+tqdm==4.51.0
+scipy==1.5.2
+scikit-image==0.17.2
+pycocotools==2.0.2
+h5py
+opencv-python-headless
+tensorboard==2.4.0
+protobuf==3.13
