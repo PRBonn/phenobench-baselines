@@ -20,11 +20,11 @@ To allow to produce the exact same results as reported in the paper, we also pro
 <tr><td>Semantic Segmentation</td><td>DeepLabV3+</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/semantic_segmentation/semantic-seg-deeplab.ckpt">Download</a></td></tr>
 <tr><td></td><td></td><td></td></tr>
 <tr><td>Panoptic Segmentation</td><td>Mask R-CNN</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/rcnn/panoptic_segmentation/last.pt">Download</a></td></tr>
-<tr><td>Panoptic Segmentation</td><td>Panoptic DeepLab</td><td><a href="">Download</a></td></tr>
-<tr><td>Panoptic Segmentation</td><td>Mask2Former</td><td><a href="">Download</a></td></tr>
+<tr><td>Panoptic Segmentation</td><td>Panoptic DeepLab</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/PanopticDeeplab/model.pth">Download</a></td></tr>
+<tr><td>Panoptic Segmentation</td><td>Mask2Former</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/Mask2former/model.pth">Download</a></td></tr>
 <tr><td></td><td></td><td></td></tr>
-<tr><td>Leaf Instance Segmentation</td><td> Mask R-CNN</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/rcnn/leaf_instance_segmentation/last.pt">Download</a></td></tr>
-<tr><td>Leaf Instance Segmentation</td><td>Mask2Former</td><td><a href="">Download</a></td></tr>
+<tr><td>Leaf Instance Segmentation</td><td>Mask R-CNN</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/rcnn/leaf_instance_segmentation/last.pt">Download</a></td></tr>
+<tr><td>Leaf Instance Segmentation</td><td>Mask2Former</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/leaf_instance_segmentation/Mask2former/model.pth">Download</a></td></tr>
 <tr><td></td><td></td><td></td></tr>
 <tr><td>Hierarchical Panoptic Segmentation</td><td>Weyler et al.</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/hierarchical/weyler/weyler_checkpoint_0381.pth">Download</a></td></tr>
 <tr><td>Hierarchical Panoptic Segmentation</td><td>HAPT</td><td><a href="https://drive.google.com/drive/folders/1BctpWMAALU0l6pTvo1e6Mxs8PWplNioT?usp=sharing">Download</a></td></tr>
@@ -53,11 +53,11 @@ Please refer to the [PhenoBench development kit](https://www.github.com/PRBonn/p
 <tr><td>Semantic Segmentation</td><td>DeepLabV3+</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/semantic_segmentation/predictions/deeplab/deeplab-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/semantic_segmentation/predictions/deeplab/deeplab-test.zip">Download</a></td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td>Panoptic Segmentation</td><td>Mask R-CNN</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/maskrcnn-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/maskrcnn-test.zip">Download</a></td></tr>
-<tr><td>Panoptic Segmentation</td><td>Panoptic DeepLab</td><td><a href="">Download</a></td><td><a href="">Download</a></td></tr>
-<tr><td>Panoptic Segmentation</td><td>Mask2Former</td><td><a href="">Download</a></td><td><a href="">Download</a></td></tr>
+<tr><td>Panoptic Segmentation</td><td>Panoptic DeepLab</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/panopticdeeplab-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/panopticdeeplab-test.zip">Download</a></td></tr>
+<tr><td>Panoptic Segmentation</td><td>Mask2Former</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/mask2former-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/panoptic_segmentation/predictions/mask2former-test.zip">Download</a></td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td>Leaf Instance Segmentation</td><td> Mask R-CNN</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/leaf_instance_segmentation/predictions/maskrcnn-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/leaf_instance_segmentation/predictions/maskrcnn-test.zip">Download</a></td></tr>
-<tr><td>Leaf Instance Segmentation</td><td>Mask2Former</td><td><a href="">Download</a></td><td><a href="">Download</a></td></tr>
+<tr><td>Leaf Instance Segmentation</td><td>Mask2Former</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/leaf_instance_segmentation/predictions/mask2former-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/leaf_instance_segmentation/predictions/maskrcnn-test.zip">Download</a></td></tr>
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td>Hierarchical Panoptic Segmentation</td><td>Weyler et al.</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/hierarchical/predictions/weyler-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/hierarchical/predictions/weyler-test.zip">Download</a></td></tr>
 <tr><td>Hierarchical Panoptic Segmentation</td><td>HAPT</td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/hierarchical/predictions/hapt-val.zip">Download</a></td><td><a href="https://www.ipb.uni-bonn.de/html/projects/phenobench/hierarchical/predictions/hapt-test.zip">Download</a></td></tr>
