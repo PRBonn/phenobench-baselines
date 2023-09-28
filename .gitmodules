@@ -1,6 +1,6 @@
 [submodule "plant_detection/yolov7/src/yolov7"]
 	path = plant_detection/yolov7/src/yolov7
-	url = https://github.com/WongKinYiu/yolov7
+	url = https://github.com/WongKinYiu/yolov7.git
 [submodule "plant_detection/yolov7/scripts/yolo-labels-python-visualiser"]
 	path = plant_detection/yolov7/scripts/yolo-labels-python-visualiser
 	url = https://github.com/yuelinn/yolo-labels-python-visualiser.git
