@@ -86,11 +86,8 @@ if __name__ == "__main__":
     dataset_dir = "/media/elias/Data/datachallenge/final_patch_extract/phenorob_challenge_dataset" #DATASET DIRECTORY
     for s in ["train", "val", "test"]:
         separate_coco_semantic_from_panoptic(
-            # os.path.join(dataset_dir, "plants_panoptic_{}.json".format(s)),
-            # os.path.join(dataset_dir, "plants_panoptic_{}".format(s)),
-            # os.path.join(dataset_dir, "plants_panoptic_semseg_{}".format(s)),
-            os.path.join(dataset_dir, "leaves_panoptic_{}.json".format(s)),
-            os.path.join(dataset_dir, "leaves_panoptic_{}".format(s)),
-            os.path.join(dataset_dir, "leaves_panoptic_semseg_{}".format(s)),
+            os.path.join(dataset_dir, "plants_panoptic_{}.json".format(s)),
+            os.path.join(dataset_dir, "plants_panoptic_{}".format(s)),
+            os.path.join(dataset_dir, "plants_panoptic_semseg_{}".format(s)),
             "",
         )
